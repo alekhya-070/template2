@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Deccan Hospital — Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome (icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      :root{ --deccan-primary: #132957; --deccan-accent: #00e6b8 }
+
+      /* Keep theme consistent */
+      .theme-primary { color: var(--deccan-primary) !important }
+      .bg-theme { background: var(--deccan-primary) !important; color: #fff }
+
+      /* Stats bar adjustments */
+      .stats-bar .col { border-left: 1px solid rgba(255,255,255,0.06) }
+      .stats-bar .col:first-child { border-left: 0 }
+
+      /* Appointment inputs inside primary background */
+      .appointment .form-control, .appointment .form-select, .appointment textarea {
+        background: #fff;
+        color: #000;
+      }
+    </style>
+    <!-- Header include -->
+    <object type="text/html" data="components/header.html" style="width:100%;border:0;min-height:120px"></object>
+
+    <section id="hero" class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
+            <small class="text-primary fw-bold"
+              >WELCOME TO DECCAN HOSPITAL</small
+            >
+            <h1 class="display-5 fw-bold text-dark my-3">
+              Your Health, Our Priority
+            </h1>
+            <p class="text-muted">
+              Deccan is a multi-specialty hospital in Chintamani offering
+              24-hour emergency care across multiple departments.
+            </p>
+            <a
+              href="services.html"
+              class="btn btn-outline-primary rounded-pill px-4"
+              >Our Services</a
+            >
+          </div>
+          <div class="col-lg-6 text-center">
+            <img
+              src="https://deccanhospital.org/images/about/2.png"
+              class="img-fluid rounded-3"
+              alt="Deccan Hospital"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quick-appointments" class="py-4">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-4">
+            <div class="card text-white bg-primary h-100">
+              <div
+                class="card-body d-flex justify-content-between align-items-center"
+              >
+                <div>Book an Appointment</div>
+                <i class="fa fa-calendar fa-2x"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card h-100" style="background: #e9f2ff">
+              <div
+                class="card-body d-flex justify-content-between align-items-center text-primary"
+              >
+                <div>Book an Appointment</div>
+                <i class="fa fa-users fa-2x"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-white bg-info h-100">
+              <div
+                class="card-body d-flex justify-content-between align-items-center"
+              >
+                <div>Book an Appointment</div>
+                <i class="fa fa-credit-card fa-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="welcome" class="py-5 bg-white">
+      <div class="container text-center">
+        
+        
+        <p class="text-muted">
+          Deccan is a multi-specialty hospital in Chintamani city that offers
+          24-hour emergency care and treatment across several departments.
+        </p>
+        <p class="text-muted">
+          At Deccan Hospital, our first and foremost focus is the patient; their
+          health needs, well-being and overall satisfaction are very important
+          to us. With advanced expertise and sophisticated technology, we
+          ensure that every patient leaves our hospital with a smile on their
+          face.
+        </p>
+        <a href="about.html" class="text-primary">Learn More →</a>
+      </div>
+    </section>
+
+    <section id="why" class="py-5 bg-light">
+      <div class="container">
+        <small class="text-primary fw-bold">WHY CHOOSE US?</small>
+        <h3 class="my-3">Reasons to Contact Us</h3>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="p-3 bg-white border rounded h-100">
+              <h6 class="fw-bold">35+ Years Experience</h6>
+              <p class="small text-muted mb-0">Decades of trusted, multi-specialty care.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="p-3 bg-white border rounded h-100">
+              <h6 class="fw-bold">Skilled Doctors &amp; Nurses</h6>
+              <p class="small text-muted mb-0">Experienced clinicians and compassionate nursing teams.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="p-3 bg-white border rounded h-100">
+              <h6 class="fw-bold">Continuous Improvement</h6>
+              <p class="small text-muted mb-0">We update processes, facilities and training to improve care.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="p-3 bg-white border rounded h-100">
+              <h6 class="fw-bold">Comprehensive Support</h6>
+              <p class="small text-muted mb-0">Operational services that keep patient care running smoothly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" class="py-5" style="background:#271a6a;color:#fff">
+      <div class="container">
+        <div class="row text-center g-0 align-items-center">
+          <div class="col-6 col-md-3">
+            <div class="py-4">
+              <i class="fa fa-medal fa-2x mb-3" style="color:#fff"></i>
+              <div class="fw-bold text-uppercase">Total Awards</div>
+              <div class="fw-bold" style="color:var(--deccan-accent);font-size:1.6rem">55,860</div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="py-4">
+              <i class="fa fa-users fa-2x mb-3" style="color:#fff"></i>
+              <div class="fw-bold text-uppercase">Total Doctors</div>
+              <div class="fw-bold" style="color:var(--deccan-accent);font-size:1.6rem">180</div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="py-4">
+              <i class="fa fa-clinic-medical fa-2x mb-3" style="color:#fff"></i>
+              <div class="fw-bold text-uppercase">Clinic Services</div>
+              <div class="fw-bold" style="color:var(--deccan-accent);font-size:1.6rem">69,040</div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="py-4">
+              <i class="fa fa-user fa-2x mb-3" style="color:#fff"></i>
+              <div class="fw-bold text-uppercase">Happy Patients</div>
+              <div class="fw-bold" style="color:var(--deccan-accent);font-size:1.6rem">6,898</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="image-strip">
+      <img
+        src="https://images.unsplash.com/photo-1580281657527-47c9d3b3f5f1?auto=format&fit=crop&w=1600&q=80"
+        class="img-fluid w-100"
+        alt="Medical Team"
+      />
+    </section>
+
+    <section id="services-home" class="py-5" style="background-image: url('https://images.unsplash.com/photo-1584438784480-3b0b3c2f1b2b?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center;">
+      <div class="container position-relative">
+        <div style="position:absolute;inset:0;background:rgba(19,41,87,0.62);"></div>
+        <div class="row g-4 position-relative" style="z-index:2">
+          <div class="col-lg-4">
+            <div class="list-group">
+              <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#free">Free Checkup</a>
+              <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#cardio">Cardiogram</a>
+              <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#dna">DNA Testing</a>
+              <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#blood">Blood Bank</a>
+            </div>
+            <a href="services.html" class="btn btn-light w-100 mt-3">View All</a>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="tab-content text-white">
+              <div class="tab-pane fade show active" id="free">
+                <h5 class="fw-bold">Free Checkup</h5>
+                <p>We offer regular free health screening camps to help you detect early signs of disease. Screenings include basic vitals, diabetes and blood pressure checks.</p>
+                <ul>
+                  <li>Basic physical exam</li>
+                  <li>Blood pressure &amp; glucose check</li>
+                  <li>Doctor consultation and advice</li>
+                </ul>
+              </div>
+
+              <div class="tab-pane fade" id="cardio">
+                <h5 class="fw-bold">Cardiogram &amp; Cardiac Care</h5>
+                <p>Our cardiology unit provides ECG, stress testing and full cardiac evaluation backed by experienced cardiologists and on-site monitoring.</p>
+                <ul>
+                  <li>ECG and stress testing</li>
+                  <li>Cardiac risk assessment</li>
+                  <li>Follow-up care plans</li>
+                </ul>
+              </div>
+
+              <div class="tab-pane fade" id="dna">
+                <h5 class="fw-bold">DNA Testing Services</h5>
+                <p>Accurate and confidential DNA testing for diagnostics and family-related tests, performed in certified labs.</p>
+                <ul>
+                  <li>Paternity &amp; kinship testing</li>
+                  <li>Genetic screening where required</li>
+                  <li>Secure sample handling</li>
+                </ul>
+              </div>
+
+              <div class="tab-pane fade" id="blood">
+                <h5 class="fw-bold">Blood Bank Services</h5>
+                <p>Our blood bank ensures safe and timely availability of blood and components for emergency and planned procedures.</p>
+                <ul>
+                  <li>24/7 blood availability</li>
+                  <li>Component separation and storage</li>
+                  <li>Safe transfusion protocols</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="specialties" class="py-5 bg-white">
+      <div class="container text-center">
+        <small class="text-primary fw-bold">OUR SPECIALITIES</small>
+        <h2 class="my-3">Our Specialties</h2>
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <div class="border rounded py-3">Gynaecology</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="border rounded py-3">Orthopedics</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="border rounded py-3">General Surgery</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="border rounded py-3">General Medicine</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="border rounded py-3">Dental Service &amp; Care</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="border rounded py-3">Pediatrics</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="appointment-section" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h3 class="theme-primary">Book an Appointment</h3>
+            <p class="text-muted">Request a visit and our team will contact you to confirm.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="p-4 rounded bg-theme appointment">
+              <form>
+                <div class="row g-2">
+                  <div class="col-md-6">
+                    <input class="form-control" placeholder="Name" />
+                  </div>
+                  <div class="col-md-6">
+                    <select class="form-select">
+                      <option>Gender</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <input class="form-control" placeholder="Email" />
+                  </div>
+                  <div class="col-md-6">
+                    <input class="form-control" placeholder="Phone" />
+                  </div>
+                  <div class="col-md-6">
+                    <input class="form-control" type="date" />
+                  </div>
+                  <div class="col-md-6">
+                    <input class="form-control" type="time" />
+                  </div>
+                  <div class="col-md-6">
+                    <select class="form-select">
+                      <option>Doctor</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <select class="form-select">
+                      <option>Department</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                  </div>
+                  <div class="col-12 text-end">
+                    <button class="btn btn-light text-theme-primary">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="news-section" class="py-5 bg-white">
+      <div class="container text-center">
+        <small class="text-primary fw-bold">NEWS & UPDATES</small>
+        <h2 class="my-3">News</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-4">
+                  <img
+                    src="https://deccanhospital.org/images/blog/b5.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Guidance of Obstetrics"
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <small class="text-muted">Date | By Deccan Hospital</small>
+                    <h5>Guidance of Obstetrics and Gynaecology</h5>
+                    <p class="small text-muted">
+                      The topic discussed was “New Advances in Management of
+                      infertility”.
+                    </p>
+                    <a href="https://deccanhospital.org/blog-right-sidebar2.php"
+                      >Read More →</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-4">
+                  <img
+                    src="https://deccanhospital.org/images/blog/b6.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Another Milestone"
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <small class="text-muted">Date | By Deccan Hospital</small>
+                    <h5>Another Milestone for DH</h5>
+                    <p class="small text-muted">
+                      Kidney failure requiring dialysis affects many people;
+                      Deccan Hospital provides care and options.
+                    </p>
+                    <a href="https://deccanhospital.org/blog-right-sidebar3.php"
+                      >Read More →</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-home"></section>
+
+    <!-- Footer include -->
+    <object type="text/html" data="components/footer.html" style="width:100%;border:0;min-height:320px;overflow:hidden;display:block"></object>
+
+    <!-- Bootstrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
